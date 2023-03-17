@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+body{
+    background-image:url(./pexels-marta-branco-1194713.jpg);
+    background-size: cover;
+    text-decoration: none;
+    width: auto;
+    overflow: scroll;
+    height: 100% 100%;
+    background-position: fixed;
+    /* background-repeat: no-repeat; */
+}
+.menu{
+    text-decoration: none;
+    margin-top: -65px;
+    font-size: 30px;
+}
+ul{
+    color: white;
+    float: right;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 200px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+ul li a.active{
+    background-color: #fff;
+    color: #000;
+}
+.title{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mobile{
+    width: 100px;
+    height: auto;
+    position: center;
+}
+.img{
+    position: absolute;
+    top:60%;
+    left: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.More{
+    color: #fff;
+    text-decoration:none;
+    padding: 5px 20px;
+    background-color: transparent;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.More :hover{
+    top: 2000px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: #fff;
+    color:#000;
+}
